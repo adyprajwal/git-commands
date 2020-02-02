@@ -1,7 +1,4 @@
-# git-commands
-List of commonly used git commands.
-Git Commands
-============
+A list of commonly used git commands.
 
 ### Getting & Creating Projects
 
