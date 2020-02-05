@@ -109,7 +109,7 @@
 
 | Command | Description |
 | ------- | ----------- |
-| `cd [existing-repository]` |  |
+| `cd [existing-repository]` | Change working directory to the existing Git repository |
 | `git remote add origin https://github.com/[username]/[repository-name].git` | Add a remote repository |
 | `git push -u origin master` | Push changes to remote repository (and remember the branch) |
 
