@@ -1,4 +1,4 @@
-A list of commonly used git commands.
+# A list of commonly used git commands.
 
 ### Getting & Creating Projects
 
