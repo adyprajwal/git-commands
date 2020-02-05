@@ -1,4 +1,5 @@
 # A list of commonly used git commands.
+---------------------------------------
 
 ### Git global setup
 
@@ -66,6 +67,7 @@
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
 
+-------------------------------
 ## Setting up projects with git
 -------------------------------
 
