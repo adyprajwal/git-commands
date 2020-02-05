@@ -1,5 +1,12 @@
 # A list of commonly used git commands.
 
+### Git global setup
+
+| Command | Description |
+| ------- | ----------- |
+| `git config --global user.name "[username]"` | Set global username |
+| `git config --global user.email "[email]"` | Set global email |
+
 ### Getting & Creating Projects
 
 | Command | Description |
@@ -58,3 +65,49 @@
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+## Setting up projects with git
+-------------------------------
+
+### Create a new repository
+
+| Command | Description |
+| ------- | ----------- |
+| `cd [new folder]` | Change working directory to new folder to be used as new git repo |
+| `echo "# [title]" >> README.md` | Create README file with a title |
+| `git init` | Initialize a local Git repository |
+| `git add README.md` | Add the file "README.md" to the staging area |
+| `git commit -m "add README"` | Commit changes with commit message "add README" |
+| `git remote add origin https://github.com/[username]/[repository-name].git` | Add a remote repository |
+| `git push -u origin master` | Push changes to remote repository (and remember the branch) |
+
+### Create a new repository by cloning remote repository
+
+| Command | Description |
+| ------- | ----------- |
+| `git clone https://github.com/[username]/[repository-name].git` | Create a local copy of a remote repository  |
+| `cd [repository-name]` | Change working directory to the cloned repository |
+| `touch README.md` | Create a README file |
+| `git add README.md` | Add the file "README.md" to the staging area |
+| `git commit -m "add README"` | Commit changes with commit message "add README" |
+| `git push -u origin master` | Push changes to remote repository (and remember the branch) |
+
+### Push existing folder to Github
+
+| Command | Description |
+| ------- | ----------- |
+| `cd [existing-folder]` | Change working directory to the project folder |
+| `git init` | Initialize a local Git repository |
+| `git add .` | Add all changes to the staging area |
+| `git commit -m "Initial commit"` | Commit changes with commit message "Initial commit" |
+| `git remote add origin https://github.com/[username]/[repository-name].git` | Add a remote repository |
+| `git push -u origin master` | Push changes to remote repository (and remember the branch) |
+
+### Push existing Git repository to Github
+
+| Command | Description |
+| ------- | ----------- |
+| `cd [existing-repository]` |  |
+| `git remote add origin https://github.com/[username]/[repository-name].git` | Add a remote repository |
+| `git push -u origin master` | Push changes to remote repository (and remember the branch) |
+
