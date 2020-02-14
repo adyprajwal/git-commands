@@ -36,7 +36,7 @@
 | `git push origin --delete [branch name]` | Delete a remote branch |
 | `git checkout -b [branch name]` | Create a new branch and switch to it |
 | `git checkout -b [branch name] origin/[branch name]` | Clone a remote branch and switch to it |
-| `git branch -m new-name` | Rename a local branch (If you are on branch you want to rename)|
+| `git branch -m [new branch name]` | Rename a local branch (If you are on branch you want to rename)|
 | `git branch -m [old branch name] [new branch name]` | Rename a local branch (If you are on a different branch) |
 | `git push origin :old-name new-name` | Delete the old-name remote branch and push the new-name local branch |
 | `git checkout [branch name]` | Switch to a branch |
