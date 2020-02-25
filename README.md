@@ -5,8 +5,8 @@
 
 | Command | Description |
 | ------- | ----------- |
-| `git config --global user.name "[username]"` | Set global username |
-| `git config --global user.email "[email]"` | Set global email |
+| `git config --global user.name "[username]"` | Configure username to be used with your commmits |
+| `git config --global user.email "[email]"` | Configure email to be used with your commits |
 
 ### Getting & Creating Projects
 
