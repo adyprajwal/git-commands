@@ -5,8 +5,9 @@
 
 | Command | Description |
 | ------- | ----------- |
-| `git config --global user.name "[username]"` | Configure username to be used with your commits |
-| `git config --global user.email "[email]"` | Configure email to be used with your commits |
+| `git config --global user.name "[username]"` | Set a name that is identifiable for credit when reviewing version history |
+| `git config --global user.email "[email]"` | Set an email address that will be associated with each history marker |
+| `git config --global color.ui auto` | Set automatic command line coloring for Git for easy reviewing |
 
 ### Getting & Creating Projects
 
@@ -22,8 +23,20 @@
 | `git status` | Check status |
 | `git add [file-name.txt]` | Add a file to the staging area |
 | `git add -A` | Add all new and changed files to the staging area |
+| `git reset [file]` | Unstage a file while retaining the changes in working directory |
 | `git commit -m "[commit message]"` | Commit changes |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
+
+### Inspection & Comparison
+
+| Command | Description |
+| ------- | ----------- |
+| `git log` | Show all commits in the current branch's history |
+| `git log --summary` | Show all commits (detailed) |
+| `git log --oneline` | Show all commits (briefly) |
+| `git diff` | View difference of what is changed but not staged |
+| `git diff --staged` | View difference of what is staged but not yet committed |
+| `git diff [source branch] [target branch]` | Preview changes before merging |
 
 ### Branching & Merging
 
@@ -59,15 +72,6 @@
 | `git pull origin [branch name]` | Pull changes from remote repository |
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Add a remote repository |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
-
-### Inspection & Comparison
-
-| Command | Description |
-| ------- | ----------- |
-| `git log` | View changes |
-| `git log --summary` | View changes (detailed) |
-| `git log --oneline` | View changes (briefly) |
-| `git diff [source branch] [target branch]` | Preview changes before merging |
 
 -------------------------------
 ## Setting up projects with git
